@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton';
+	color: black;
+	font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+section {
+	padding-top: 113px;
+}
+ul, li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto; /*Позиционирования по центу*/
+}
+.container2 {
+	width: 1164px;
+}
+.header {
+	background: url(header-bg.jpg) no-repeat center top / cover;
+	padding-top: 57px;
+	height: 900px;
+}
+header a {
+	color: #FFFFFF;
+}
+.logo {
+	margin-right: 69px;
+}
+.menu {
+	display: flex;
+}
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+.menu li {
+	margin-right: 40px;
+}
+.tel {
+	font-size: 17px;
+	text-decoration: none;
+	margin-left: auto;
+	letter-spacing: 0.1em;
+}
+.nav {
+	display: flex;
+	align-items: center;
+	padding-top: 57px;
+}
+.paragraf {
+	font-size: 30px;
+	color: #FFFFFF;
+	font-weight: bold;
+	line-height: 45px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+ .nav2 h1 {
+	font-size: 100px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em;
+	line-height: 147px;
+	font-weight: bolder;
+}
+.nav2 .href {
+	display: block;
+	font-size: 17px;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+	letter-spacing: 0.01em;
+	padding: 17px 47px;
+	width: 238px;
+}
+.nav2 {
+	padding-top: 320px;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+}
+.desk-left {
+	width: 564px;
+}
+.desk-left p, .desk-right p  {
+	text-align: justify;
+}
+.desk-right {
+	width: 564px;
+}
+
+.discription {
+	display: flex;
+	justify-content: space-between;
+}
+.discription p {	
+	font-family: 'Open Sans';
+	font-weight: 400;
+	line-height: 1.62em;
+}
+.gallery {
+	margin-top: 67px;
+	display: flex;
+	justify-content: space-between;
+}
+.about {
+	width: 1170px;
+	margin: auto;
+}
+.podval {
+	width: 1170px;
+	margin: auto;
+	margin-top: 114px;
+}
+.container3 {
+	width: 543px;
+	display: flex;
+	justify-content: space-between;
+}
